@@ -23,7 +23,7 @@ COPY . .
 ENV NEXT_TELEMETRY_DISABLED=1
 
 # Build-time argument for self-hosted draw.io URL
-ARG NEXT_PUBLIC_DRAWIO_BASE_URL=https://embed.diagrams.net
+ARG NEXT_PUBLIC_DRAWIO_BASE_URL=http://10.246.107.247:8400
 ENV NEXT_PUBLIC_DRAWIO_BASE_URL=${NEXT_PUBLIC_DRAWIO_BASE_URL}
 
 # Build-time argument to show About link and Notice icon
